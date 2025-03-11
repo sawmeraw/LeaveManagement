@@ -1,0 +1,85 @@
+# Ignore build outputs and directories
+bin/
+obj/
+*.dll
+*.exe
+*.log
+*.sql
+*.sqlite
+*.pdb
+
+# Ignore user-specific files and directories
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider-specific files
+.idea/
+*.sln.iml
+.DIRECTORY_PATH
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Ignore Resharper-specific files
+_ReSharper*
+/_ReSharper*/
+*.DotSettings.user
+
+# Ignore NuGet packages
+*.nupkg
+.nuget/
+packages/
+
+# Ignore npm packages
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore by OS
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+.nfs*
+
+# Ignore generated code files
+Generated_Code/
+
+# Ignore configuration files
+appsettings.json
+appsettings.Development.json
+
+# Ignore tools directory
+/tools/
+# Uncomment if using JetBrains Rider and uncomment the above reference
+# .idea/
+
+# Ignore Rider caches
+.idea/
+*.sln.iml
+
+# Ignore optional VS Code workspace settings
+.vscode/*
+.vs/*
