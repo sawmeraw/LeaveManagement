@@ -10,5 +10,8 @@ namespace LeaveManagement.Domain
         public DateTime DateCreated { get; set; }
         public int LeaveTypeId { get; set; }
         public int Period { get; set; }
+
+        //Nagivation
+        public LeaveType LeaveType { get; set; }
     }
 }
